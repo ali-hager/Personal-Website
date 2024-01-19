@@ -1,0 +1,54 @@
+body {
+  background-color: #e0ffcd; 
+}
+
+header {
+  /* position: fixed; */
+  display: flex;
+  justify-content: space-between;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #ffebbb;
+}
+
+main {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #fdffcd;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image {
+  width: 50%;
+  height: 50%;
+  border-radius: 50% 20% / 10% 40%;
+}
+
+.item {
+    width: calc(100% - 6em);
+    background: #fafafa;
+    color: #222;
+    box-shadow: 0 3px 6px -2px #ccc;
+    margin: 2em auto;
+    padding: 1em;
+}
+
+footer {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  background: #ffcab0;
+  display: flex;
+}
+
+.jasmine-plant {
+  max-width: 100%;
+  height: auto;
+}
+
+.Home {
+  padding-bottom: 5px;
+}
