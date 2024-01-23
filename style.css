@@ -5,6 +5,15 @@ body {
   color: #dfd8c8;
 }
 
+.contact-form {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLdOrIfEgeQLuJLu8AdYyeTTggrwWMlpthAA&usqp=CAU);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: #41444b;
+}
+
 h1 {
   color: #bb5a5a;
   font-weight: bolder;
@@ -19,9 +28,14 @@ header{
   justify-content: space-between;
 }
 
+/* The 'a' makes the links in nav beige */
 nav a {
   color: #dfd8c8;
   margin: 0 5px;
+}
+
+a:hover {
+  color: #bb5a5a;
 }
 
 h2{
@@ -29,10 +43,18 @@ h2{
 }
 
 section {
-  background-color: #dfd8c8;
+  /*background-color: #dfd8c8;*/
+  background: linear-gradient(to right,#dfd8c8, #bb5a5a);
   padding: 20px;
   margin-bottom: 20px;
   color: #41444b;
+}
+
+#item1, #item2, #item3 {
+  border: 5px solid;
+  width: 300px;
+  height: 300px;
+  padding: 50px;
 }
 
 .quad {
@@ -59,4 +81,8 @@ aside {
 footer {
   text-align: center;
   padding: 20px;
+}
+
+.container {
+  width: 100vw
 }
