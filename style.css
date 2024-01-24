@@ -50,11 +50,9 @@ section {
   color: #41444b;
 }
 
-#item1, #item2, #item3 {
-  border: 5px solid;
-  width: 300px;
-  height: 300px;
-  padding: 50px;
+.portfolio-image {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .quad {
