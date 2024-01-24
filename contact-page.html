@@ -25,26 +25,43 @@
     <p>Let's start a conversation.</p>
 
     <form class="contact-form">
+      
+      <div class="form-content">
       <label for="name">Name:</label>
         <input type="text" value="full name"><br>
-      <label for="Email">Email:</label>
+      </div>
+
+      <div class="form-content">
+        <label for="Email" id="form-email">Email:</label>
         <input type="email" value="email"><br>
-      <label for="Message">Message:</label><br>
+      </div>
+
+      <div class="form-content">
+      <label for="Message" id="form-message">Message:</label><br>
         <textarea id="message" name="message" rows="6" cols="50"></textarea><br>
-      <input type="submit" value="Submit">
+      </div>
+
+      <div class="submit-button">
+      <input type="submit" id="submit" value="Submit">
+      </div>
+
     </form>
 
   </main>
   
-  <footer>
-    <nav>
-      <h4>Contact</h4>
-      <a href="mailto:ahager2013@gmail.com">Email</a></li>
-      <a href="www.linkedin.com/in/alison-hager" target="_blank">LinkedIn</a></li>
-      <a href="https://github.com/ali-hager" target="_blank">github</a></li>
-      </ul>
-    </nav>
-  </footer>
+    <footer>
+      <nav>
+        <h4>Contact</h4>
+
+        <div class="footer-links">
+        <a href="mailto:ahager2013@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/alison-hager" target="_blank">LinkedIn</a>
+        <a href="https://github.com/ali-hager" target="_blank">github</a>
+        </div>
+        
+      </nav>
+    </footer>
+
 </div>
 </body>
 
