@@ -5,6 +5,7 @@ body {
   color: #dfd8c8;
 }
 
+/* persistent header styling starts */
 h1 {
   color: #bb5a5a;
   font-weight: bolder;
@@ -31,14 +32,25 @@ nav a {
   margin: 0 5px;
 }
 
-.footer-links a {
-  color: #dfd8c8;
-}
-
 a:hover {
   color: #bb5a5a;
 }
 
+/* persistent header styling ends */
+
+/* persistent footer styling starts */
+.footer-links a {
+  color: #dfd8c8;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+/* persistent footer styling ends */
+
+/* multipage styling h2, section */
 h2{
   text-decoration: underline #596e79;
 }
@@ -50,11 +62,26 @@ section {
   color: #41444b;
 }
 
-.portfolio-image {
-    max-width: 100%;
-    max-height: 100%;
+/* HOME styling */
+
+.headshot-container {
+  /* border: 5px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.bio {
+  padding: 2%;
+  font-size: 1.5em;
+}
+
+.portrait {
+    max-width: 100%;
+    max-height:100%;
+}
+
+/* ABOUT styling */
 .quad {
   display: flex;
   flex-wrap: wrap;
@@ -70,19 +97,17 @@ section {
   border-radius: 5%;
 }
 
-aside {
-  width: 200px;
-  height: 300px;
-  background-color: #dfd8c8;
+/* PORTFOLIO styling */
+.portfolio-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h3 a {
   color: #41444b;
-  padding: 10px;
 }
 
-footer {
-  text-align: center;
-  padding: 20px;
-}
-
+/* CONTACT styling */
 .container {
   width: 100vw
 }
@@ -93,11 +118,6 @@ footer {
 
 #submit:active {
   background-color: #41444b;
-}
-
-/* this makes the first line of every paragraph white, I don't like the styling but it's practice - shows on all pages but about */
-p::first-line{
-  color: whitesmoke;
 }
 
 .contact-form {
@@ -124,25 +144,10 @@ p::first-line{
   justify-content: center;
 }
 
+
+/* RESPONSIVE STYLING */
 @media only screen and (max-width: 768px) {
   h1 {
     font-size: 100%;
   }
-}
-
-.headshot-container {
-  /* border: 5px solid black; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.bio {
-  padding: 2%;
-  font-size: 1.5em;
-}
-
-.portrait {
-    max-width: 100%;
-    max-height:100%;
 }
