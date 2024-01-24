@@ -1,5 +1,7 @@
 # Personal Website
 
+[Trello Planning][https://trello.com/b/VnVRhSyc/personal-website]
+
 # Requirements
   1. GitHub repository, with:
     - More than one branch (including main/master), with descriptive branch names

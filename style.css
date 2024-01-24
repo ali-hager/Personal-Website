@@ -5,58 +5,149 @@ body {
   color: #dfd8c8;
 }
 
+/* persistent header styling starts */
 h1 {
   color: #bb5a5a;
   font-weight: bolder;
   font-family: 'Georgia', serif;
-  border: 2px solid #dfd8c8;
-  padding: 10px;
+  border: 2px solid #bb5a5a;
+  padding: 12px;
 }
 
-header{
+header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  /* border: 2px solid black; */
+  align-items: center;
+  height: 60px;
+  padding: 15px;
+  background-color: #dfd8c8;
+  /* box-sizing: border-box; */
 }
 
+/* The 'a' changes the links color, this is the top nav bar*/
 nav a {
-  color: #dfd8c8;
+  color: #41444b;
   margin: 0 5px;
 }
 
-h2{
-  text-decoration: underline #596e79;
+a:hover {
+  color: #bb5a5a;
 }
 
-section {
-  background-color: #dfd8c8;
-  padding: 20px;
-  margin-bottom: 20px;
-  color: #41444b;
-}
+/* persistent header styling ends */
 
-.quad {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.quad img {
-  max-width: 40%;
-  height: auto;
-  flex: 1 0 calc(50% - 10px);
-  margin-bottom: 10px;
-}
-
-aside {
-  width: 200px;
-  height: 300px;
-  background-color: #dfd8c8;
-  color: #41444b;
-  padding: 10px;
+/* persistent footer styling starts */
+.footer-links a {
+  color: #dfd8c8;
 }
 
 footer {
   text-align: center;
   padding: 20px;
+}
+
+/* persistent footer styling ends */
+
+/* multipage styling h2, section */
+h2{
+  text-decoration: underline #596e79;
+}
+
+section {
+  background: linear-gradient(to right,#dfd8c8, #bb5a5a);
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #41444b;
+}
+
+/* HOME styling */
+
+.headshot-container {
+  /* border: 5px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bio {
+  padding: 2%;
+  font-size: 1.5em;
+}
+
+.portrait {
+    max-width: 100%;
+    max-height:100%;
+}
+
+/* ABOUT styling */
+.quad {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.quad img {
+  max-width: 45%;
+  height: auto;
+  flex: 1 0 calc(50% - 10px); /* keeps integrity of photo */
+  margin-bottom: 10px;
+  border-radius: 5%;
+}
+
+/* PORTFOLIO styling */
+.portfolio-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h3 a {
+  color: #41444b;
+}
+
+/* CONTACT styling */
+.container {
+  width: 100vw
+}
+
+#submit:hover {
+  background-color: lightgrey;
+}
+
+#submit:active {
+  background-color: #41444b;
+}
+
+.contact-form {
+  /* start background */
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLdOrIfEgeQLuJLu8AdYyeTTggrwWMlpthAA&usqp=CAU);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  /* end background */
+  color: #161a25;
+  /* border: 5px solid black; */
+  height: 250px;
+  padding: 15px;
+}
+
+.form-content {
+  /* border: 5px solid black; */
+  padding: 5px;
+}
+
+.submit-button {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* RESPONSIVE STYLING */
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 100%;
+  }
 }
