@@ -29,7 +29,7 @@ This project requires a temporary development server to run and view it locally.
 - The server will likely assign a local URL (often starting with http://localhost:) to access this project in your web browser. Look for instructions or notifications from the server extension about the assigned URL.
 - Open the provided URL in your web browser. You should now be able to view your project running locally.
 
-## Built With :brick:
+## Built With :mechanical_arm:
 
 - HTML
 - CSS
