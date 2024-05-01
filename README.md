@@ -33,7 +33,7 @@ This project requires a temporary development server to run and view it locally.
 
 - HTML
 - CSS
-- 
+  
 ## Contact
 
 - **Ali Hager** ahager2013@gmail.com
