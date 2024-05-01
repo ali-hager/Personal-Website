@@ -32,8 +32,14 @@ Requirements for the software and other tools to build, test and push
 - HTML
 - CSS
 
-## Authors
+## Contact
 
-- **Ali Hager** - Built this portfolio
+Ali Hager - ahager2013@gmail.com
+Project Link: [https://github.com/ali-hager/Personal-Website](https://github.com/ali-hager/Personal-Website)
+
+## Acknowledgements
+
 - **Billie Thompson** - _Provided README Template_ -
   [PurpleBooth](https://github.com/PurpleBooth)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
