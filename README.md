@@ -1,28 +1,39 @@
-# Personal Website
+# Personal Website :partying_face:
 
 [Trello Planning][https://trello.com/b/VnVRhSyc/personal-website]
 
-# Requirements
-  1. GitHub repository, with:
-    - More than one branch (including main/master), with descriptive branch names
-    - More than one commit, with descriptive commit messages
+## Getting Started
 
-  2. A descriptive Readme file
+This project requires a temporary development server to run and view it locally. Here's how to get started:
 
-  3. A functional website that fulfills the requirements, and includes:
-  three pages: home, about, work/portfolio
+1. Setting Up a Temporary Server:
 
-  4. A persistent header with links
+I recommend using a lightweight development server like "Live Server" for a smooth experience. You can install extensions for VS Code or other code editors that provide this functionality.
 
-  5. Personalized content, including both formatted text and images
+2. Running the Project:
 
-  6. Basic CSS styling, included via an external file
+Once you have a temporary server set up, follow these steps:
 
-  7. A call to console.log with the string "Hello World" which is loaded into all of pages on your site as an external script.
+- Open your project folder in your code editor.
+- Launch your temporary server according to the specific extension or tool you're using.
+- Instructions for launching the server typically involve a button or command within the extension or a built-in option in the editor's status bar.
+- The server will likely assign a local URL (often starting with http://localhost:) to access this project in your web browser. Look for instructions or notifications from the server extension about the assigned URL.
+- Open the provided URL in your web browser. You should now be able to view your project running locally.
 
-  8. HTML/CSS/JavaScript files submitted via a GitHub repository
+### Prerequisites
 
-# TO DO
-  - Home: mission statement, and something which defines me
-  - About: include my interests, and things I'm good at
-  - Portfolio: add a brief description, a screenshot, and a link to where it lives on the web.
+Requirements for the software and other tools to build, test and push
+
+- [Example 1](https://www.example.com)
+- [Example 2](https://www.example.com)
+
+## Built With
+
+- HTML
+- CSS
+
+## Authors
+
+- **Ali Hager** - Built this portfolio
+- **Billie Thompson** - _Provided README Template_ -
+  [PurpleBooth](https://github.com/PurpleBooth)
