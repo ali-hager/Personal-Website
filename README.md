@@ -1,5 +1,15 @@
 # Personal Website :partying_face:
 
+Welcome!
+
+This is my first personal website, built as part of a Fullstack Academy Bootcamp project.  It features several pages to showcase my skills and background:
+- Home: Introduces me and my goals.
+- About: Provides a deeper look at my experience and qualifications.
+- Portfolio: Highlights projects I've worked on.
+- Contact: Offers ways to connect with me.
+
+I'm excited to share this website and learn more about web development!
+
 ## Getting Started
 
 This project requires a temporary development server to run and view it locally. Here's how to get started:
