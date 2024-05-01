@@ -36,12 +36,10 @@ This project requires a temporary development server to run and view it locally.
 - 
 ## Contact
 
-Ali Hager - ahager2013@gmail.com
-Project Link: [https://github.com/ali-hager/Personal-Website](https://github.com/ali-hager/Personal-Website)
+- **Ali Hager** ahager2013@gmail.com
+- **Project Link:** [https://github.com/ali-hager/Personal-Website](https://github.com/ali-hager/Personal-Website)
 
 ## Acknowledgements
 
 - **Billie Thompson** - _Provided README Template_ -
   [PurpleBooth](https://github.com/PurpleBooth)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
