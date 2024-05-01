@@ -1,7 +1,5 @@
 # Personal Website :partying_face:
 
-[Trello Planning][https://trello.com/b/VnVRhSyc/personal-website]
-
 ## Getting Started
 
 This project requires a temporary development server to run and view it locally. Here's how to get started:
